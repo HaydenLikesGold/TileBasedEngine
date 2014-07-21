@@ -23,7 +23,7 @@ public:
     
     void move(int horizontalMovement, int verticalMovement);
     void jumpCameraTo(int horizontalPosition, int verticalPosition);
-
+    
     sf::Vector2f getAbsolutePosition();
 };
 

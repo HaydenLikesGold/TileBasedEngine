@@ -16,7 +16,7 @@ class Character{
 private:
     sf::Sprite characterSprite;
     sf::Texture characterTexture;
-
+    
     sf::Vector2f characterPosition;
     
     int characterID;

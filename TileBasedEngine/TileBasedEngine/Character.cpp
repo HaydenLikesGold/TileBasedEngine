@@ -27,7 +27,7 @@ void Character::moveCharacter(float horizontalMovement, float verticalMovement){
     characterPosition.x += horizontalMovement;
     characterPosition.y += verticalMovement;
     characterSprite.move(characterPosition);
-
+    
 }
 
 void Character::renderCharacter(sf::RenderWindow* renderWindow){
