@@ -1,13 +1,13 @@
 //
-//  PlayerManager.cpp
-//  GameTestLab
+//  CharacterManager.cpp
+//  TileBasedEngine
 //
-//  Created by Hayden Goldstien on 9/15/13.
-//  Copyright (c) 2013 com.HaydenGoldstien. All rights reserved.
+//  Created by Hayden Goldstien on 7/21/14.
+//  Copyright (c) 2014 HaydenGoldstien. All rights reserved.
 //
 
 #include "CharacterManager.h"
-    
+
 CharacterManager::CharacterManager(sf::RenderWindow* renderWindow){
     this->renderWindow = renderWindow;
     characterCount = 0;
@@ -15,7 +15,7 @@ CharacterManager::CharacterManager(sf::RenderWindow* renderWindow){
 CharacterManager::~CharacterManager(){
     
 }
-    
+
 void CharacterManager::addCharacter(std::string characterSpritePath, sf::Vector2f characterStartPosition){
     Character* characterToAdd = new Character(characterSpritePath, characterStartPosition);
     if (characterToAdd){

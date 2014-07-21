@@ -18,8 +18,8 @@ Renderer::~Renderer(){
 }
 
 void Renderer::renderScene(){
-   windowBeingRendered->clear();
-   
+    windowBeingRendered->clear();
+    
     
     
     

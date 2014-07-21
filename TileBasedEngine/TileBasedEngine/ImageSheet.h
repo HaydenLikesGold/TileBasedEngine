@@ -18,7 +18,7 @@ private:
     std::map <int, int> imageIDs;
     
     int imageCount;
-
+    
 public:
     ImageSheet();
     ~ImageSheet();

@@ -15,7 +15,7 @@
 class Renderer{
 private:
     sf::RenderWindow* windowBeingRendered;
-
+    
 public:
     Renderer(sf::RenderWindow* windowToRender);
     ~Renderer();

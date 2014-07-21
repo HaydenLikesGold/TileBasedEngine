@@ -11,6 +11,13 @@
 		4F2BC2FD197DBEA400C9CBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC2FC197DBEA400C9CBFE /* main.cpp */; };
 		4F2BC30E197DBF3800C9CBFE /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC30C197DBF3800C9CBFE /* Camera.cpp */; };
 		4F2BC311197DBF7800C9CBFE /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC30F197DBF7800C9CBFE /* Character.cpp */; };
+		4F2BC314197DBFB700C9CBFE /* CharacterManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC312197DBFB700C9CBFE /* CharacterManager.cpp */; };
+		4F2BC317197DBFE600C9CBFE /* GameWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC315197DBFE600C9CBFE /* GameWindow.cpp */; };
+		4F2BC31B197DC03500C9CBFE /* ImageSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC319197DC03500C9CBFE /* ImageSheet.cpp */; };
+		4F2BC31E197DC06000C9CBFE /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC31C197DC06000C9CBFE /* Input.cpp */; };
+		4F2BC321197DC09900C9CBFE /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC31F197DC09900C9CBFE /* MainMenu.cpp */; };
+		4F2BC327197DC0AD00C9CBFE /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC325197DC0AD00C9CBFE /* Renderer.cpp */; };
+		4F2BC32A197DC0B800C9CBFE /* TileSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BC328197DC0B800C9CBFE /* TileSheet.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,21 @@
 		4F2BC30D197DBF3800C9CBFE /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
 		4F2BC30F197DBF7800C9CBFE /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
 		4F2BC310197DBF7800C9CBFE /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		4F2BC312197DBFB700C9CBFE /* CharacterManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterManager.cpp; sourceTree = "<group>"; };
+		4F2BC313197DBFB700C9CBFE /* CharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterManager.h; sourceTree = "<group>"; };
+		4F2BC315197DBFE600C9CBFE /* GameWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWindow.cpp; sourceTree = "<group>"; };
+		4F2BC316197DBFE600C9CBFE /* GameWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWindow.h; sourceTree = "<group>"; };
+		4F2BC318197DC00F00C9CBFE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		4F2BC319197DC03500C9CBFE /* ImageSheet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageSheet.cpp; sourceTree = "<group>"; };
+		4F2BC31A197DC03500C9CBFE /* ImageSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSheet.h; sourceTree = "<group>"; };
+		4F2BC31C197DC06000C9CBFE /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
+		4F2BC31D197DC06000C9CBFE /* Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		4F2BC31F197DC09900C9CBFE /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		4F2BC320197DC09900C9CBFE /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		4F2BC325197DC0AD00C9CBFE /* Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		4F2BC326197DC0AD00C9CBFE /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		4F2BC328197DC0B800C9CBFE /* TileSheet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileSheet.cpp; sourceTree = "<group>"; };
+		4F2BC329197DC0B800C9CBFE /* TileSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileSheet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +86,21 @@
 				4F2BC30D197DBF3800C9CBFE /* Camera.h */,
 				4F2BC30F197DBF7800C9CBFE /* Character.cpp */,
 				4F2BC310197DBF7800C9CBFE /* Character.h */,
+				4F2BC312197DBFB700C9CBFE /* CharacterManager.cpp */,
+				4F2BC313197DBFB700C9CBFE /* CharacterManager.h */,
+				4F2BC315197DBFE600C9CBFE /* GameWindow.cpp */,
+				4F2BC316197DBFE600C9CBFE /* GameWindow.h */,
+				4F2BC318197DC00F00C9CBFE /* Header.h */,
+				4F2BC319197DC03500C9CBFE /* ImageSheet.cpp */,
+				4F2BC31A197DC03500C9CBFE /* ImageSheet.h */,
+				4F2BC31C197DC06000C9CBFE /* Input.cpp */,
+				4F2BC31D197DC06000C9CBFE /* Input.h */,
+				4F2BC31F197DC09900C9CBFE /* MainMenu.cpp */,
+				4F2BC320197DC09900C9CBFE /* MainMenu.h */,
+				4F2BC325197DC0AD00C9CBFE /* Renderer.cpp */,
+				4F2BC326197DC0AD00C9CBFE /* Renderer.h */,
+				4F2BC328197DC0B800C9CBFE /* TileSheet.cpp */,
+				4F2BC329197DC0B800C9CBFE /* TileSheet.h */,
 			);
 			path = TileBasedEngine;
 			sourceTree = "<group>";
@@ -162,7 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2BC2FD197DBEA400C9CBFE /* main.cpp in Sources */,
+				4F2BC321197DC09900C9CBFE /* MainMenu.cpp in Sources */,
+				4F2BC317197DBFE600C9CBFE /* GameWindow.cpp in Sources */,
+				4F2BC31E197DC06000C9CBFE /* Input.cpp in Sources */,
+				4F2BC327197DC0AD00C9CBFE /* Renderer.cpp in Sources */,
+				4F2BC32A197DC0B800C9CBFE /* TileSheet.cpp in Sources */,
+				4F2BC314197DBFB700C9CBFE /* CharacterManager.cpp in Sources */,
 				4F2BC30E197DBF3800C9CBFE /* Camera.cpp in Sources */,
+				4F2BC31B197DC03500C9CBFE /* ImageSheet.cpp in Sources */,
 				4F2BC2FA197DBEA400C9CBFE /* ResourcePath.mm in Sources */,
 				4F2BC311197DBF7800C9CBFE /* Character.cpp in Sources */,
 			);

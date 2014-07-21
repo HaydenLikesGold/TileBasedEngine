@@ -1,13 +1,16 @@
 //
-//  MainMenu.cpp
+//  MainMenu.h
 //  GameTestLab
 //
 //  Created by Hayden Goldstien on 8/28/13.
 //  Copyright (c) 2013 com.HaydenGoldstien. All rights reserved.
 //
 
-#include "MainMenu.h"
+#ifndef __GameTestLab__MainMenu__
+#define __GameTestLab__MainMenu__
 
-void launchMainMenu(){
-    
-}
+#include <iostream>
+
+void launchMainMenu();
+
+#endif /* defined(__GameTestLab__MainMenu__) */

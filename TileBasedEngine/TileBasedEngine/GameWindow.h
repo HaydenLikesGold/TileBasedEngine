@@ -27,7 +27,7 @@ private:
     Renderer* renderManager;
     CharacterManager* characterManager;
     
-
+    
     std::string windowName;
     
     

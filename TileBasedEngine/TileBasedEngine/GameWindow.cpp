@@ -15,7 +15,7 @@ GameWindow::GameWindow(int width, int height, std::string windowName){
 }
 
 GameWindow::~GameWindow(){
-
+    
 }
 
 void GameWindow::forTesting(){
@@ -29,13 +29,13 @@ bool GameWindow::init(){
     camera = new Camera(windowSize.x, windowSize.y);
     renderManager = new Renderer(renderWindow);
     characterManager = new CharacterManager(renderWindow);
-
+    
     if (!renderWindow || !camera || !renderManager)
         return false;
-
-
+    
+    
     forTesting();
-
+    
     return true;
 }
 
@@ -44,8 +44,8 @@ bool GameWindow::init(){
 void GameWindow::mainLoop(){
     while (renderWindow->isOpen()){
         processInput(renderWindow); //ProcessInput is in Input.cpp
-       // renderManager->renderScene();
-
+        // renderManager->renderScene();
+        
         renderWindow->clear();
         characterManager->renderAllCharacters();
         renderWindow->display();

@@ -1,16 +1,14 @@
 //
 //  MainMenu.h
-//  GameTestLab
+//  TileBasedEngine
 //
-//  Created by Hayden Goldstien on 8/28/13.
-//  Copyright (c) 2013 com.HaydenGoldstien. All rights reserved.
+//  Created by Hayden Goldstien on 7/21/14.
+//  Copyright (c) 2014 HaydenGoldstien. All rights reserved.
 //
 
-#ifndef __GameTestLab__MainMenu__
-#define __GameTestLab__MainMenu__
+#ifndef __TileBasedEngine__MainMenu__
+#define __TileBasedEngine__MainMenu__
 
 #include <iostream>
 
-void launchMainMenu();
-
-#endif /* defined(__GameTestLab__MainMenu__) */
+#endif /* defined(__TileBasedEngine__MainMenu__) */
