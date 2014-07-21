@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F533447E-05FA-4882-A7C9-E481DEEB4552</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TileBasedEngine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E04A9A55-6537-4258-A2D8-7B24651F0DF8</key>
+		<string>ssh://github.com/hgoldsti/TileBasedEngine.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TileBasedEngine/TileBasedEngine.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E04A9A55-6537-4258-A2D8-7B24651F0DF8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/hgoldsti/TileBasedEngine.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E04A9A55-6537-4258-A2D8-7B24651F0DF8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E04A9A55-6537-4258-A2D8-7B24651F0DF8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TileBasedEngine</string>
+		</dict>
+	</array>
+</dict>
+</plist>
